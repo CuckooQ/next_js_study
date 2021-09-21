@@ -1,0 +1,24 @@
+.profile__icon {
+  display: inline-block;
+  inline-size: 75px;
+  block-size: 75px;
+  overflow: hidden;
+  margin: 0 5px;
+}
+
+.profile__icon > :first-child {
+  inline-size: 75px;
+  block-size: 75px;
+  border-radius: 50%;
+  inset-block-end: -10px;
+}
+
+.profile__name {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 700;
+  inset-inline-start: 10px;
+  inset-block-start: 0;
+  inset-block-end: 0;
+  margin: auto;
+}

@@ -1,0 +1,19 @@
+.header {
+  padding-block-start: 40px;
+  margin-inline-start: 10px;
+  color: #7bdac1;
+}
+.contents {
+  position: relative;
+}
+
+.content {
+  inline-size: 100%;
+  margin-block-end: 10px;
+}
+
+.content_text {
+  display: inline-block;
+  inset-inline-start: 5px;
+  margin-left: 10px;
+}

@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+.app {
+  margin: 10px;
+}
+
+.main {
+  min-block-size: 80vh;
+}
+
+.inner {
+  inline-size: 1100px;
+  margin: 0 auto;
+  position: relative;
+}

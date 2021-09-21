@@ -1,0 +1,7 @@
+.wrapper {
+  position: fixed;
+  inset-inline-end: 0;
+  inset-block-end: 0;
+  inline-size: 100%;
+  block-size: 100%;
+}

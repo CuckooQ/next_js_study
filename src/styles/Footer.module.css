@@ -1,0 +1,12 @@
+.footer {
+  inset-block-end: 10px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer_content {
+  display: inline-block;
+  margin-block-start: 10px;
+  margin-block-end: 15px;
+}

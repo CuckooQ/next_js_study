@@ -1,0 +1,32 @@
+.header {
+  padding-block-start: 40px;
+  margin-inline-start: 10px;
+  color: #7bdac1;
+}
+
+.contents {
+  display: block;
+  position: relative;
+  inset-block-start: 10px;
+  margin-block-end: 20px;
+}
+
+.content {
+  margin-block-end: 20px;
+}
+
+.content_title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-block-end: 10px;
+}
+
+.content_textarea {
+  font-size: 12px;
+  min-inline-size: 500px;
+  min-block-size: 100px;
+}
+
+.textarea_title {
+  min-block-size: 50px;
+}

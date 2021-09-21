@@ -1,0 +1,42 @@
+.wrapper {
+  block-size: 100%;
+  display: flex;
+  padding: 40px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.img_wrapper {
+  flex: 200px 0 0;
+}
+
+.img_wrapper > :first-child {
+  display: block;
+}
+
+.info_wrapper {
+  flex: 1 0 0;
+}
+
+.info_wrapper .name {
+  display: block;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.info_wrapper .price {
+  display: block;
+  font-size: 34px;
+  margin-top: 20px;
+  color: #00bcd4;
+}
+
+.info_wrapper .info {
+  display: block;
+  font-size: 24px;
+  margin: 20px 0 40px;
+}
+
+.description {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
