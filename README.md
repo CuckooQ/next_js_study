@@ -11,4 +11,4 @@
 - React
 - Redux
 - Redux-saga
-- css module
+- ss module
