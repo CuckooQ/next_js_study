@@ -1,4 +1,4 @@
-import { Divider } from "semantic-ui-react";
+import { Divider, Icon } from "semantic-ui-react";
 import styles from "../styles/Introduction.module.css";
 
 function Introduction() {
@@ -9,19 +9,19 @@ function Introduction() {
         <Divider />
         <div className={styles.contents}>
           <div className={styles.content}>
-            <i className="male icon"></i>
+            <Icon className="male" />
             <span className={styles.content_text}>Jae-yong Cho</span>
           </div>
           <div className={styles.content}>
-            <i className="map marker icon"></i>
+            <Icon className="map marker" />
             <span className={styles.content_text}>Seoul Seodaemun-gu</span>
           </div>
           <div className={styles.content}>
-            <i className="mail icon"></i>
+            <Icon className="mail" />
             <span className={styles.content_text}>jaeyong4536@gmail.com</span>
           </div>
           <div className={styles.content}>
-            <i className="linkify icon"></i>
+            <Icon className="linkify" />
             <a
               className={styles.content_text}
               href="https://github.com/CuckooQ"
