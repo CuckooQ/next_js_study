@@ -1,23 +1,13 @@
-import { useEffect } from "react";
-import LoadingDialog from "./LoadingDialog";
 import AllProductListContainer from "../containers/AllProductListContainer";
 import BestProductListContainer from "../containers/BestProductListContainer";
 
 function ProductList(props) {
-  const { isLoading, getProductList } = props;
-
-  useEffect(() => {
-    getProductList();
-  }, [getProductList]);
-
-  if (isLoading) {
-    return <LoadingDialog />;
-  }
+  const { products, bestProducts } = props;
 
   return (
     <div>
-      <BestProductListContainer />
-      <AllProductListContainer />
+      <BestProductListContainer bestProducts={bestProducts} />
+      <AllProductListContainer products={products} />
     </div>
   );
 }

@@ -1,9 +1,6 @@
-import { useSelector } from "react-redux";
 import BestProductList from "../components/BestProductList";
 
-function BestProductListContainer() {
-  const { bestProducts } = useSelector((state) => state.product);
-
+function BestProductListContainer({ bestProducts }) {
   return <BestProductList products={bestProducts} />;
 }
 
