@@ -18,7 +18,6 @@ function ProductView({ product }) {
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) =>
     async ({ params }) => {
-      console.log(process.env.name);
       const { id } = params;
       store.dispatch(getProduct(id));
       store.dispatch(END);
